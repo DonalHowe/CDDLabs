@@ -10,7 +10,7 @@ DEBUGFLAGS =
 		$(CC) -c -o  $@ $< $(CFLAGS) $(DEBUGFLAGS)
 
 
-All: $(OBJECTS)
+All: $(OBJS)
 		$(CC) -o $(OUT) $(OBJS) $(CFLAGS) $(DEBUGFLAGS)
 
 DEBUG: DEBUGFLAGS = DDEBUG
