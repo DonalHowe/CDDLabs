@@ -1,3 +1,8 @@
+# name : Donal howe 
+#31/03/2023
+# license : GNU LICENSE 3.0
+
+
 OBJS	= main.o Semaphore.o
 SOURCE	= main.cpp, Semaphore.cpp
 HEADER	= Semaphore.h

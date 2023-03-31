@@ -1,4 +1,14 @@
+// name : Donal howe 
+//31/03/2023
+// license : GNU LICENSE 3.0
+
 #ifndef SEMAPHORE_H
+// name : Donal howe 
+// 31/03/2023
+// license : GNU LICENSE 3.0
+
+
+
 #define SEMAPHORE_H 
 #include <mutex>
 #include <condition_variable>

@@ -1,3 +1,8 @@
+//name : Donal howe 
+//31/03/2023
+//license : GNU LICENSE 3.0
+
+
 #include "Semaphore.h"
 #include <iostream>
 #include <thread>

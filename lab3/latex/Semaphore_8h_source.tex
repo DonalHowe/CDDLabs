@@ -1,0 +1,33 @@
+\hypertarget{Semaphore_8h_source}{}\doxysection{Semaphore.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{//\ name\ :\ Donal\ howe\ }}
+\DoxyCodeLine{00002\ \textcolor{comment}{//\ 31/03/2023}}
+\DoxyCodeLine{00003\ \textcolor{comment}{//\ license\ :\ GNU\ LICENSE\ 3.0}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ SEMAPHORE\_H}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ SEMAPHORE\_H\ }}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <mutex>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <condition\_variable>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <chrono>}}
+\DoxyCodeLine{00019\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classSemaphore}{Semaphore}}}
+\DoxyCodeLine{00020\ \{}
+\DoxyCodeLine{00021\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ m\_uiCount;\ }
+\DoxyCodeLine{00023\ \ \ \ \ std::mutex\ m\_mutex;}
+\DoxyCodeLine{00024\ \ \ \ \ std::condition\_variable\ m\_condition;}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00027\ \ \ \ \ \mbox{\hyperlink{classSemaphore}{Semaphore}}(\textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ uiCount=0)}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \ \ :\ m\_uiCount(uiCount)\ \{\ \};}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{void}\ Wait();}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keyword}{template}<\ \textcolor{keyword}{typename}\ R,\textcolor{keyword}{typename}\ P\ >}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{bool}\ Wait(\textcolor{keyword}{const}\ std::chrono::duration<R,P>\&\ crRelTime);}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{void}\ Signal();}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \};}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

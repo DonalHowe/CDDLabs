@@ -1,4 +1,8 @@
 #include "Semaphore.h"
+// name : Donal howe 
+//31/03/2023
+// license : GNU LICENSE 3.0
+
 /*! \class Semaphore
     \brief A Semaphore Implementation
 

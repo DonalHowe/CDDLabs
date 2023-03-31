@@ -1,3 +1,8 @@
+# name : Donal howe 
+# 31/03/2023
+# license : GNU LICENSE 3.0
+
+
 The README file is a text file that explains what a project is.
 It should contain information on
 
@@ -15,8 +20,14 @@ c++
 
 6. List of files and what they contain
 makefile: used to compile and what they contain 
-main.cpp 
-semaphore.cpp 
-semaphore.h
+main.cpp - 
+html - Doxygen files
+latex - Doxygen file 
+Doxyfile - Doxygen 
+makefile: used to compile and what they contain 
+main.OUT - this  a text file that is used as the executable
+semaphore.cpp - smaphore file for signaling
+semaphore.h- smaphore file for signaling
+
 README ( this is that file indeed )
 7. Any other relevent information
