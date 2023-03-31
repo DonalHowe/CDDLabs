@@ -1,0 +1,22 @@
+The README file is a text file that explains what a project is.
+It should contain information on
+
+1. Project Licence 
+GNU GENERAL PULBLIC LICENSE
+2. Authors of Project
+Donal Howe 
+3. How to install project
+right click on the folder "lab3" and click "open in terminal"
+int he teminal type ./output which will run the project
+4. List of any required Libraries, platform issues, etc.
+c++
+
+5. TO DO section listing items that need to be completed (errors, missing features etc.)
+
+6. List of files and what they contain
+makefile: used to compile and what they contain 
+main.cpp 
+semaphore.cpp 
+semaphore.h
+README ( this is that file indeed )
+7. Any other relevent information
